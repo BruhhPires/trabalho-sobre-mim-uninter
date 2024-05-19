@@ -1,0 +1,98 @@
+/* Estilo do corpo */
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif; /* Família de fontes */
+}
+
+/* Estilo das listas não ordenadas */
+ul {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre os itens */
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+/* Estilo dos links */
+a {
+    color: white;
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+/* Estilo da imagem no cabeçalho */
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Tornar a imagem redonda */
+    border: 5px solid #5BBE42;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #5BBE42;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #5BBE42;
+}
+
+.contact-form input{
+    width: 100%; /* Largura total */
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+a {
+    color: inherit; /* Mantém a cor padrão dos links */
+    text-decoration: none; /* Remove sublinhado padrão */
+    transition: transform 0.3s, color 0.3s; /* Transição suave para as propriedades */
+  }
+  
+  /* Estilo quando o mouse passa sobre os links */
+  a:hover {
+    transform: scale(1.1); /* Aumenta um pouco o tamanho */
+    color: green; /* Altera a cor para verde */
+  }
